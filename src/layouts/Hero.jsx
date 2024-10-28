@@ -1,5 +1,5 @@
 import React from 'react'
-import Countdown from '../utils/countDown'
+import CountdownTimer from '../utils/CountDownTimer'
 
 const Hero = () => {
   return (
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <h1 className='text-primary lobster-two-regular lg:text-5xl text-3xl'>Kento' & Taeh</h1>
         <p className='font-bold text-white'>Selesa, 20 Oktober 2024</p>
-        <Countdown deadline={"December, 09, 2024"} specificHour={8} />
+        <CountdownTimer deadline={"December, 09, 2024"} specificHour={8} />
       </div>
     </div>
   )
